@@ -1,0 +1,101 @@
+<!--HW03-->
+<!--index-->
+<!--Myron Williams-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personality Quiz</title>
+    <style>
+        img{width: 300px; height: 250px;}
+        #banner{width: 600px; height: 150px}
+    </style>
+</head>
+<body>
+<img src="img/banner.jpg" id="banner" >
+<br>
+<h1>How Geeky you are?</h1>
+<h2>Lets find out by answering the following questions:</h2>
+<form action="display_result.php" method="post">
+    <img src="img/1.jpg">
+    <br>
+    <p>How many video games have you played in the past year?</p>
+    <select name="video_games">
+        <option selected="selected" value="Less than 3">Less than 3</option>
+        <option value="3-10">3-10</option>
+        <option value="More than 10">More than 10</option>
+    </select>
+    <br>
+    <hr>
+
+    <br>
+    <p>What type of movies/ TV shows do you like best?</p>
+    <select name="movies">
+        <option selected="selected" value="romance"> Romance/ Reality TV</option>
+        <option value="action"> Action/ Thriller /Crime</option>
+        <option value="drama"> Drama/ Documentary/Natural Films</option>
+        <option value="comedy"> Comedy / Animation</option>
+        <option value="science"> Science Fiction/ Fantasy</option>
+    </select>
+    <br>
+    <hr>
+
+    <img src="img/3.jpg">
+    <br>
+    <p>Do you know any programming languages?</p>
+    <select name="programming">
+        <option selected="selected" value="nope">Nope</option>
+        <option value="school">Only what I studied in school</option>
+        <option value="course">Of Course!</option>
+    </select>
+    <br>
+    <hr>
+
+    <img src="img/4.jpg">
+    <br>
+    <p>Its time to upgrade your mobile phone and you have the budget for it. How do you choose the make and model?</p>
+    <select name="upgrade">
+        <option selected="selected" value="person">Get whatever the sales person says is best for my needs</option>
+        <option value="identical">Get a model identical or similar to that of my friends</option>
+        <option value="friend">Ask a friend or read reviews online</option>
+        <option value="industry">I already know what mobile I want as I follow mobile industry updates</option>
+    </select>
+    <br>
+    <hr>
+
+    <img src="img/5.jpg">
+    <br>
+    <p>Which of the following was( or is) your favorite subject in school?</p>
+    <select name="school">
+        <option selected="selected" value="anything">Ugh. I didn’t like ANYTHING in school</option>
+        <option value="physical">Physical Education</option>
+        <option value="art">Art Literature or History</option>
+        <option value="computers">Computers, Math or Science</option>
+    </select>
+    <br>
+    <hr>
+
+    <img src="img/6.jpg">
+    <br>
+    <p>Your mobile phone has stopped working. What do you do?</p>
+    <select name="broken">
+        <option selected="selected" value="buy">Buy a new one</option>
+        <option value="take">Take it to my usual repair shop</option>
+        <option value="try">Try to fix it myself with some help from the net</option>
+    </select>
+    <br>
+    <hr>
+
+    <br>
+    <p>On a typical Saturday night, you are most likely …</p>
+    <select name="saturday">
+        <option selected="selected" value="out">Out at party or bar</option>
+        <option value="gaming">Gaming with friends</option>
+        <option value="surfing">Surfing the net or reading a book</option>
+    </select>
+    <br>
+    <hr>
+    <input type="submit" value="Submit Answers"><input type="reset" value="Again!">
+</form>
+</body>
+</html>
